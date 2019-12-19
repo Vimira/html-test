@@ -5,15 +5,32 @@ html {
 h1 {
   font-size: 60px;
   text-align: center;
+  margin: 0;
+  color: gray;
 }
 
 p, li {
   font-size: 16px;    
   line-height: 2;
   letter-spacing: 1px;
-  text-align: center
+  text-align: center;
+  color: gray;
 }
 h2 {
   font-size: 60px;
   text-align: center;
+}
+html {
+  background-color: ##06060D;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgb(21, 21, 36);
+  padding: 0 20px 20px 20px;
+  border: 20px;
+}
+img {
+  display: block;
+  margin: 0 auto;
 }
